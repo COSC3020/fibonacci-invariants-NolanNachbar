@@ -5,6 +5,7 @@ function fib(n) {
     fibHelper(arr,n);
     return arr;
 }
+
 function fibHelper(arr, max) {
     var len = arr.length;
     if (len === max + 1) return arr;
