@@ -9,7 +9,7 @@ function fib(n) {
 
 function fibHelper(arr, max) {
     var len = arr.length;
-    if (len === max + 1) return arr;
+    if (len == max + 1) return arr;
     var len = arr.length;
     arr.push(arr[len - 1] + arr[len - 2]);
     fibHelper(arr, max);
