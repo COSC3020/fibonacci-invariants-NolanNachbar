@@ -1,8 +1,8 @@
 function fib(n) {
+    if (n == 0) return [0];
+    if (n < 2) return [0,1];
+    if (n < 3) return [0,1,1];
     var arr = [0, 1];
-    if (n < 1) return arr[0];
-    if (n < 2) return arr;
-    if (n < 3) return arr.push(1);
     fibHelper(arr,n);
     return arr;
 }
