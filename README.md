@@ -48,7 +48,7 @@ function fibHelper(arr, max) {
     fibHelper(arr, max); //this is the recursive part
 }
 ```
-Invariant: When the recursive part, ```fibHelper(arr, max);``` is called, every element in the array up until the i-th element will be the correct Fibonacci number. This is because as the recurssion progresses, it will start with [0,1] (as long as n is above 1), and iteratively add on the next Fibonacci number up until the nth.
+Invariant: When the recursive part, ```fibHelper(arr, max);``` is called, every element in the array up until the (i - 1)-st element will be the correct Fibonacci number. This is because as the recurssion progresses, it will start with [0,1] (as long as n is above 1), and iteratively add on the next Fibonacci number up until the nth.
 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
